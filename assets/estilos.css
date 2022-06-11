@@ -246,7 +246,7 @@ header{
     display: flex;
     flex-direction: row;
     color: #141413;
-    background-color: rgb(226, 253, 71);
+    background-color: #F6C90E;
     font-size: 40px;
     text-align: center;
     text-decoration: none;
@@ -424,9 +424,65 @@ header{
      
     }
 
+            
     #section__carrusel{
         height: 20vh;
     }
+
+    section.datos1{
+        height: 100vh;
+    }
+
+
+    .iniciosesion .datos1{
+       
+        width: 100%;
+        height: 90vh;
+        background-color:#141413 ;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .datos1 form{
+        display: grid;
+        grid-template-rows: 20vh 20vh;
+        grid-template-columns: 50% 50%;
+        
+        
+       
+    }
+
+    div#inputdatos2{
+        height: 80px;
+        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+
+        font-size: 12px;
+        align-self: center;
+        justify-content: center;
+        
+
+    }
+
+    input#cajainput{
+        width: 85%;
+    }
+
+    .iniciosesion .datos1 form{
+        height: 100vh;
+    }
+
+
+
+
+
+    footer{
+        font-size: 10px;
+
+    }
+
 
 
 
@@ -434,7 +490,25 @@ header{
 }
 
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 850px){
+
+    .section3{
+        flex-direction: column;
+    }
+
+    input#cajainput{
+        width: 85%;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 960px){   
     #img__carrusel1{
         height: 50vh;
     }
@@ -474,7 +548,21 @@ header{
        
      
     }
-   
+
+
+
+    .datos1 form{
+        display: grid;
+        grid-template-rows: 22vh 22vh 22vh;
+        grid-template-columns: 50% 50%;
+        
+       
+    }
+    
+    input#cajainput{
+        width: 100%;
+    }
+
     
 }    
 
@@ -499,6 +587,14 @@ header{
         grid-column-gap: 15px;
         
     }
+
+
+    div#inputdatos2{
+        font-size: 14px;
+    }
+
+
+
 }
 
 
@@ -514,9 +610,17 @@ footer{
     margin-bottom: 0px;
 }
 
+footer .instapic{
+    margin-right: 10px;        
+       
+}
+
+
+
 
 footer section p{
     color: black;
+    margin-left: 10px;
 }
 
 footer section{
@@ -557,12 +661,52 @@ footer section{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .datos1{
     width: 70%;
-    height: 85%;
+    height: 85vh;
     background-color:#141413 ;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 10px;
 }
+
+
+.datos1 form{
+   
+    height: 85vh;
+}
+
 
 #inputdatos{
    
@@ -610,7 +754,7 @@ footer section{
    
     width: auto;
     height: auto;
-
+    margin: 0;
     margin-left: 20%;
     margin-right: 20%;
     position: relative;
@@ -641,3 +785,10 @@ h1{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
+
+
+footer .instapic{
+    margin-right: 10px;        
+       
+}
+
